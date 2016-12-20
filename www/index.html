@@ -15,6 +15,7 @@ GNU General Public License for more details.
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" href="mdl/material.min.css">
         <script src="mdl/material.min.js"></script>
@@ -23,7 +24,8 @@ GNU General Public License for more details.
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="js/xml2json.js"></script>
         <link rel="stylesheet" href="css/material.light_green-green.min.css">
-        <title>EstornudoCyL</title>
+        <script src="js/analytics.js"></script>
+        <title>Previsiones de polen en CyL</title>
     </head>
     <body onload="avila()">
         <div class="app">
@@ -33,7 +35,7 @@ GNU General Public License for more details.
                 <span id="titulopagina" class="mdl-layout-title"></span>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation">
-                  <a class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp" href="acercade.html">
+                  <a class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp" onclick="acercade()" href="acercade.html">
                     <i class="material-icons">&#xE8FD;</i>
                   </a>
                 </nav>
