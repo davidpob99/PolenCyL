@@ -853,3 +853,7 @@ function zamora(){
 function acercade(){
     analytics.screenView('Acercade');
 }
+
+function mapa(){
+    analytics.screenView('Mapa');
+}
