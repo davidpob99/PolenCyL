@@ -32,7 +32,7 @@ function onDeviceReady() {
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function avila(){
-  analytics.event('Municipio', 'Avila');
+  //analytics.event('Municipio', 'Avila');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {        
@@ -95,7 +95,7 @@ function avila(){
 }
 
 function arenas(){
-  analytics.event('Municipio', 'Arenas de San Pedro');
+  //analytics.event('Municipio', 'Arenas de San Pedro');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -158,7 +158,7 @@ function arenas(){
 }
 
 function burgos(){
-  analytics.event('Municipio', 'Burgos');
+  //analytics.event('Municipio', 'Burgos');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -221,7 +221,7 @@ function burgos(){
 }
 
 function miranda(){
-  analytics.event('Municipio', 'Miranda de Ebro');
+  //analytics.event('Municipio', 'Miranda de Ebro');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -284,7 +284,7 @@ function miranda(){
 }
 
 function leon(){
-  analytics.event('Municipio', 'Leon');
+  //analytics.event('Municipio', 'Leon');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -347,7 +347,7 @@ function leon(){
 }
 
 function ponferrada(){
-  analytics.event('Municipio', 'Ponferrada');
+  //analytics.event('Municipio', 'Ponferrada');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -410,7 +410,7 @@ function ponferrada(){
 }
 
 function palencia(){
-  analytics.event('Municipio', 'Palencia');
+  //analytics.event('Municipio', 'Palencia');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -473,7 +473,7 @@ function palencia(){
 }
 
 function salamanca(){
-  analytics.event('Municipio', 'Salamanca');
+  //analytics.event('Municipio', 'Salamanca');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -536,7 +536,7 @@ function salamanca(){
 }
 
 function bejar(){
-  analytics.event('Municipio', 'Bejar');
+  //analytics.event('Municipio', 'Bejar');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -599,7 +599,7 @@ function bejar(){
 }
 
 function segovia(){
-  analytics.event('Municipio', 'Segovia');
+  //analytics.event('Municipio', 'Segovia');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -662,7 +662,7 @@ function segovia(){
 }
 
 function soria(){
-  analytics.event('Municipio', 'Soria');
+  //analytics.event('Municipio', 'Soria');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -725,7 +725,7 @@ function soria(){
 }
 
 function valladolid(){
-  analytics.event('Municipio', 'Valladolid');
+  //analytics.event('Municipio', 'Valladolid');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -788,7 +788,7 @@ function valladolid(){
 }
 
 function zamora(){
-  analytics.event('Municipio', 'Zamora');
+  //analytics.event('Municipio', 'Zamora');
   var jqxhr = $.get( "http://opendata.jcyl.es/ficheros/inpo/polen_actual.xml", function(data) {
   })
   .done(function(data) {
@@ -851,9 +851,9 @@ function zamora(){
 }
 
 function acercade(){
-    analytics.screenView('Acercade');
+    //analytics.screenView('Acercade');
 }
 
 function mapa(){
-    analytics.screenView('Mapa');
+    //analytics.screenView('Mapa');
 }
